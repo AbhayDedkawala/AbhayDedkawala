@@ -3,8 +3,8 @@ import Navbar from './Navbar/Navbar';
 function App() {
   return (
     <>
-      <div class="min-h-full">
-        {/* <Navbar /> */}
+      <div className="min-h-full">
+        <Navbar />
       </div>
     </>
   );
