@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 function Navbar() {
 
@@ -27,18 +27,17 @@ function Navbar() {
                             className="relative inline-flex items-center justify-center rounded-md bg-gray-800 p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
                             <span className="absolute -inset-0.5"></span>
                             <span className="sr-only">Open main menu</span>
-                            <svg className="block h-6 w-6 dark:stroke-white stroke-black" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" aria-hidden="true">
-                                <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-                            </svg>
-                            <svg className="hidden h-6 w-6 dark:stroke-white stroke-black" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" aria-hidden="true">
-                                <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
+                            <svg fill="none" viewBox="0 0 24 24" strokeWidth="1.5" aria-hidden="true"
+                                className="h-6 w-6 dark:stroke-white stroke-black transition-all ease-in-out duration-1500">
+                                <path strokeLinecap="round" strokeLinejoin="round"
+                                    d={showMobileMenu ? "M6 18L18 6M6 6l12 12" : "M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"} />
                             </svg>
                         </button>
                     </div>
                 </div>
             </div>
 
-            <div className={"md:hidden " + (showMobileMenu ? "block" : "hidden")} id="mobile-menu">
+            <div className={"md:hidden transition-all ease-in-out duration-500 " + (showMobileMenu ? "block" : "hidden")} id="mobile-menu">
                 <div className="space-y-1 px-2 pb-3 pt-2 sm:px-3">
                     <MenuLinks href={"#"} text={"Home"} />
                     <MenuLinks href={"#"} text={"About Us"} />
