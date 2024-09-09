@@ -17,9 +17,9 @@ function Navbar() {
                     </div>
                     <div className="hidden md:block">
                         <div className="ml-10 flex items-baseline space-x-4">
-                            <MenuLinks href={"#"} text={"Home"} />
-                            <MenuLinks href={"#"} text={"About Us"} />
-                            <MenuLinks href={"#"} text={"Contact Us"} />
+                            <MenuLinks href={"/"} text={"Home"} />
+                    <MenuLinks href={"/about-us"} text={"About Us"} />
+                    <MenuLinks href={"/contact-us"} text={"Contact Us"} />
                         </div>
                     </div>
                     <div className="-mr-2 flex md:hidden">
@@ -39,9 +39,9 @@ function Navbar() {
 
             <div className={"md:hidden transition-all ease-in-out duration-500 " + (showMobileMenu ? "block" : "hidden")} id="mobile-menu">
                 <div className="space-y-1 px-2 pb-3 pt-2 sm:px-3">
-                    <MenuLinks href={"#"} text={"Home"} />
-                    <MenuLinks href={"#"} text={"About Us"} />
-                    <MenuLinks href={"#"} text={"Contact Us"} />
+                    <MenuLinks href={"/"} text={"Home"} />
+                    <MenuLinks href={"/about-us"} text={"About Us"} />
+                    <MenuLinks href={"/contact-us"} text={"Contact Us"} />
                 </div>
             </div>
         </nav>
