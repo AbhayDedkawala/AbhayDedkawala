@@ -2,6 +2,10 @@
   <img src-"assets/wave.webp" alt="👋" width="30" height="30" /> Hi there! I'm Abhay.
 </h2>
 
+## 🏆 Github Trophies
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=abhaydedkawala&theme=onedark&margin-w=15&margin-h=15&column=4&no-bg=true&no-frame=false" alt="Abhay Dedkawala" />
+</p>
 <!--
 **AbhayDedkawala/AbhayDedkawala** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
