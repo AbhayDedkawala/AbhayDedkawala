@@ -1,5 +1,5 @@
 <h2 align="center">
-  <img src-"assets/wave.webp" alt="👋" width="30" height="30" /> Hi there! I'm Abhay.
+  <img src="assets/wave.webp" alt="👋" width="30" height="30" /> Hi there! I'm Abhay.
 </h2>
 
 ## 🏆 Github Trophies
