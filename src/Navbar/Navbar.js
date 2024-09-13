@@ -38,7 +38,7 @@ function Navbar() {
 				</div>
 			</div>
 
-			<div className={"md:hidden transition-all ease-in-out duration-500 " + (showMobileMenu ? "block" : "hidden")} id="mobile-menu">
+			<div className={"md:hidden " + (showMobileMenu ? "block" : "hidden")} id="mobile-menu">
 				<div className="space-y-1 px-2 pb-3 pt-2 sm:px-3">
 					<MenuLinks href={"/"} text={"Home"} />
 					<MenuLinks href={"/about-us"} text={"About us"} />

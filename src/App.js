@@ -8,7 +8,7 @@ import ContactUs from "./Page/ContactUs";
 function App() {
 	return (
 		<>
-			<div className="min-h-full">
+			<div className="min-h-full transition-all duration-1500">
 				<Navbar />
 				<div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 mt-5">
 					<Routes>

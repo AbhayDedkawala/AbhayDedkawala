@@ -1,4 +1,6 @@
-## Hi there 👋
+<h2 align="center">
+  <img src-"assets/wave.webp" alt="👋" width="30" height="30" /> Hi there! I'm Abhay.
+</h2>
 
 <!--
 **AbhayDedkawala/AbhayDedkawala** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
