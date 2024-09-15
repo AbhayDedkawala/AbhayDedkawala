@@ -6,6 +6,12 @@
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=abhaydedkawala&theme=onedark&margin-w=15&margin-h=15&column=4&no-bg=true&no-frame=false" alt="Abhay Dedkawala" />
 </p>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AbhayDedkawala/AbhayDedkawala/output/snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/AbhayDedkawala/AbhayDedkawala/output/snake.svg">
+  <img src="https://raw.githubusercontent.com/AbhayDedkawala/AbhayDedkawala/output/snake.svg" alt="Snake animation" />
+</picture>
 <!--
 **AbhayDedkawala/AbhayDedkawala** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
